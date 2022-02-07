@@ -10,7 +10,7 @@ const Card = () => {
 
   const [movieInfo, setMovieInfo] = useState({});
 
-  const detailURL = "http://www.omdbapi.com/?";
+  const detailURL = "https://www.omdbapi.com/?";
 
   useEffect(() => {
     async function fetchData() {
